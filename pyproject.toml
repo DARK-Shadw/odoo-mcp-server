@@ -18,7 +18,7 @@ dependencies = [
 
 # This is the key part - defines how uvx can run your server
 [project.scripts]
-odoo-mcp-server = "main:main"
+odoo-mcp-server = "server:main"
 # Alternative naming options:
 # odoo-mcp = "main:main"
 # odoosrv = "main:main"
