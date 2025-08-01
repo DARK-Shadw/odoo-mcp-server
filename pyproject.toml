@@ -1,0 +1,13 @@
+[project]
+name = "odoo-mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.10.6",
+    "google-genai>=1.27.0",
+    "mcp>=1.12.2",
+    "odoorpc>=0.10.1",
+    "requests>=2.32.4",
+]
