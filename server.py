@@ -1270,6 +1270,8 @@ def get_all_activities_by_user(user_id: int) -> list:
         }
 
 
-if __name__ == "__main__":
+def main():
     mcp.run(transport="stdio")
-    # print(get_leads())
+
+if __name__ == "__main__":
+    main()
